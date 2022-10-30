@@ -3,7 +3,6 @@ language: node_js
 node_js:
   - node
 
-before_install: cd b1
-
 script:
+  - cd b1
   - npm test
