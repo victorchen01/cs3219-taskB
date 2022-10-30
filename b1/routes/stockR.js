@@ -24,6 +24,6 @@ router.post('/', createS)
 router.patch('/:id', putS)
 
 // delete stock
-router.post('/:id', delS)
+router.delete('/:id', delS)
 
 module.exports = router
