@@ -8,11 +8,12 @@ let should = chai.should();
 chai.use(chaiHttp);
 
 describe('Stocks', () => {
+    /*
     beforeEach((done) => {
         Stock.remove({}, (err) => {
             done();
         });
-    });
+    });*/
 
     describe('/GET stock', () => {
         it('it should get a stock', (done) => {
